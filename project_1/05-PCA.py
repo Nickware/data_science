@@ -1,3 +1,14 @@
+# Script que emplea PCA para reducir la dimensionalidad de los datos
+# Se visualizan los resultados en un gráfico 2D.
+
+# Se parte del supuesto que se tiene múltiples variables termodinámicas (resistividad, calor específico, susceptibilidad).
+# El archivo 'datos_superconductor.csv' contiene las columnas 'Temperatura', 'Parametro_Orden', 'Amplitud_Fluctuaciones', 'Potencia_Espectral'.
+
+# Se aplica PCA para reducir la dimensionalidad de los datos.
+# Se visualizan los resultados en un gráfico 2D, donde cada punto representa una temperatura y su color indica la temperatura correspondiente.
+
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

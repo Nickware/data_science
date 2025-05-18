@@ -1,3 +1,15 @@
+# Simulación de fluctuaciones térmicas en el parámetro de orden ψ (que marca la transición superconductor)
+# Este script simula el comportamiento del parámetro de orden en un superconductor en función de la temperatura, incluyendo fluctuaciones térmicas.
+# El modelo de Ginzburg-Landau describe cómo el parámetro de orden ψ varía con la temperatura y el campo magnético.
+
+# El parámetro de orden ψ (que marca la transición superconductora) con ruido térmico con el modelo de Ginzburg-Landau.
+# El parámetro de orden ψ es una medida de la densidad de pares de Cooper en un superconductor.
+# El parámetro de orden ψ se comporta como una función de la temperatura, 
+# # El parámetro de orden ψ cerca de Tc, muestra fluctuaciones térmicas.
+# La temperatura crítica Tc es el punto donde el material se vuelve superconductor.
+# Las fluctuaciones son más intensas cerca de Tc (crítica en regímenes tipo II).
+# Se emplean datos experimentales dummy
+
 import numpy as np
 import matplotlib.pyplot as plt
 

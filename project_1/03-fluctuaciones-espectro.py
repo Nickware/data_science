@@ -1,3 +1,10 @@
+# Este script grafica apartir de la generación de datos conectados
+# Se generan datos de fluctuaciones térmicas conectados y se calcula el espectro de potencia.
+
+# (Paso 1) El gráfico del noise en dominio del tiempo 
+# (Paso 2) El grafico mediante transformada rápida de Fourier (FFT) las frecuencias dominantes en las fluctuaciones.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import fft

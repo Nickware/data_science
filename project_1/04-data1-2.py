@@ -1,3 +1,8 @@
+# 1. Generar datos del Paso 1 (Parámetro de orden y fluctuaciones)
+# 2. Análisis FFT (Paso 2)
+# 3. Crear DataFrame con todas las variables
+# 4. Guardar datos en un archivo CSV
+
 import numpy as np
 import pandas as pd
 from scipy.fft import fft

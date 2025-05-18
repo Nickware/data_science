@@ -1,3 +1,13 @@
+# Se aplica la Transformada Rápida de Fourier (FFT) para analizar las frecuencias dominantes en las fluctuaciones.
+# Se generan datos de fluctuaciones térmicas conectados y se calcula el espectro de potencia.
+# Se generan datos de fluctuaciones térmicas conectados
+
+# Se sugiere que el espectro de potencia sigue una ley de potencia (1/fα1/fα).
+# Se utiliza la FFT para identificar las frecuencias dominantes en las fluctuaciones térmicas.
+# Se calcula el espectro de potencia utilizando la FFT
+# Se sugiere correlaciones críticas (típico en transiciones de fase).
+
+
 from scipy.fft import fft
 import numpy as np
 import matplotlib.pyplot as plt
