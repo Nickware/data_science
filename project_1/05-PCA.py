@@ -6,8 +6,7 @@
 
 # Se aplica PCA para reducir la dimensionalidad de los datos.
 # Se visualizan los resultados en un gráfico 2D, donde cada punto representa una temperatura y su color indica la temperatura correspondiente.
-
-
+# Si la Componente 1 captura >80% de la varianza, probablemente está ligada a Tc.
 
 import numpy as np
 import pandas as pd
