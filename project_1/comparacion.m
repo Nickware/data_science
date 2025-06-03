@@ -1,8 +1,8 @@
 % Comparacion de Soluciones Estocasticas de Ginzburg-Landau
 % Este script compara soluciones estocasticas del modelo de Ginzburg-Landau
 % para diferentes temperaturas, mostrando la influencia de la temperatura
-% en la amplitud de las fluctuaciones.
-% y la estabilidad del sistema.
+% en la amplitud de las fluctuaciones y la estabilidad del sistema.
+% Script que busca verificar que las fluctuaciones simuladas son físicamente posibles.
 
 % Parametros
 Tc = 7.2;
