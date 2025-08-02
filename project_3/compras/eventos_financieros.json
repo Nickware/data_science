@@ -1,0 +1,97 @@
+[
+  {
+    "timestamp": "2025-08-02T02:15:10.412284",
+    "monto": 958554.99,
+    "ubicacion": "South Kayla",
+    "ip": "63.29.64.204",
+    "frecuencia_24h": 2,
+    "tipo_compra": "retail",
+    "dispositivo": {
+      "tipo": "m\u00f3vil",
+      "sistema_operativo": "iOS",
+      "navegador": "Edge"
+    },
+    "usuario": {
+      "id_usuario": "usr_5971",
+      "edad": 29,
+      "cliente_vip": false
+    },
+    "fraude": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.415913",
+    "monto": 2074183.52,
+    "ubicacion": "Greenborough",
+    "ip": "168.84.37.215",
+    "frecuencia_24h": 15,
+    "tipo_compra": "servicios",
+    "dispositivo": {
+      "tipo": "PC",
+      "sistema_operativo": "Linux",
+      "navegador": "Edge"
+    },
+    "usuario": {
+      "id_usuario": "usr_4618",
+      "edad": 29,
+      "cliente_vip": false
+    },
+    "fraude": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.418482",
+    "monto": 178796.04,
+    "ubicacion": "New Joshuachester",
+    "ip": "64.203.16.160",
+    "frecuencia_24h": 1,
+    "tipo_compra": "ecommerce",
+    "dispositivo": {
+      "tipo": "PC",
+      "sistema_operativo": "Windows 10",
+      "navegador": "Safari"
+    },
+    "usuario": {
+      "id_usuario": "usr_8658",
+      "edad": 34,
+      "cliente_vip": true
+    },
+    "fraude": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.418751",
+    "monto": 707864.04,
+    "ubicacion": "Greeneburgh",
+    "ip": "153.0.177.216",
+    "frecuencia_24h": 12,
+    "tipo_compra": "servicios",
+    "dispositivo": {
+      "tipo": "m\u00f3vil",
+      "sistema_operativo": "macOS",
+      "navegador": "Chrome"
+    },
+    "usuario": {
+      "id_usuario": "usr_2952",
+      "edad": 34,
+      "cliente_vip": true
+    },
+    "fraude": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.419231",
+    "monto": 2463115.65,
+    "ubicacion": "East Savannahstad",
+    "ip": "217.193.111.214",
+    "frecuencia_24h": 10,
+    "tipo_compra": "ecommerce",
+    "dispositivo": {
+      "tipo": "POS",
+      "sistema_operativo": "Android",
+      "navegador": "Chrome"
+    },
+    "usuario": {
+      "id_usuario": "usr_3747",
+      "edad": 26,
+      "cliente_vip": false
+    },
+    "fraude": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2025-08-02T02:15:10.426659",
+    "sensor_id": "SENS_723",
+    "ubicacion": {
+      "direccion": "69991 Sandra Oval",
+      "coordenadas": {
+        "lat": 4.683454,
+        "lon": -74.093556
+      }
+    },
+    "fabricante_sensor": "National Instruments",
+    "tipo_sensor": "sensor piezoel\u00e9ctrico",
+    "vibracion_rms": 1.22,
+    "inclinacion_deg": 2.75,
+    "presion_kPa": 83.43,
+    "transito_est_medio": 54,
+    "alerta": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.426909",
+    "sensor_id": "SENS_623",
+    "ubicacion": {
+      "direccion": "0721 Martinez Street",
+      "coordenadas": {
+        "lat": 4.669831,
+        "lon": -74.080434
+      }
+    },
+    "fabricante_sensor": "Honeywell",
+    "tipo_sensor": "aceler\u00f3metro",
+    "vibracion_rms": 1.08,
+    "inclinacion_deg": 2.6,
+    "presion_kPa": 97.4,
+    "transito_est_medio": 41,
+    "alerta": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.427305",
+    "sensor_id": "SENS_675",
+    "ubicacion": {
+      "direccion": "38022 Wayne Lodge",
+      "coordenadas": {
+        "lat": 4.660979,
+        "lon": -74.106677
+      }
+    },
+    "fabricante_sensor": "HBM",
+    "tipo_sensor": "sensor piezoel\u00e9ctrico",
+    "vibracion_rms": 1.5,
+    "inclinacion_deg": 0.83,
+    "presion_kPa": 94.0,
+    "transito_est_medio": 38,
+    "alerta": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.427466",
+    "sensor_id": "SENS_216",
+    "ubicacion": {
+      "direccion": "7403 Robert Ports",
+      "coordenadas": {
+        "lat": 4.643435,
+        "lon": -74.115662
+      }
+    },
+    "fabricante_sensor": "Honeywell",
+    "tipo_sensor": "strain gauge",
+    "vibracion_rms": 1.08,
+    "inclinacion_deg": 2.01,
+    "presion_kPa": 103.79,
+    "transito_est_medio": 66,
+    "alerta": 0
+  },
+  {
+    "timestamp": "2025-08-02T02:15:10.427603",
+    "sensor_id": "SENS_668",
+    "ubicacion": {
+      "direccion": "926 Myers Squares",
+      "coordenadas": {
+        "lat": 4.693042,
+        "lon": -74.069572
+      }
+    },
+    "fabricante_sensor": "Bosch",
+    "tipo_sensor": "sensor piezoel\u00e9ctrico",
+    "vibracion_rms": 1.17,
+    "inclinacion_deg": 2.14,
+    "presion_kPa": 95.78,
+    "transito_est_medio": 52,
+    "alerta": 0
+  }
+]
