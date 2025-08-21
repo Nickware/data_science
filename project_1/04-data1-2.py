@@ -1,3 +1,8 @@
+# Simulación de datos de un superconductor cerca de su temperatura crítica
+# Incluye generación de datos, análisis FFT y almacenamiento en CSV
+#
+# Pasos:
+
 # 1. Generar datos del Paso 1 (Parámetro de orden y fluctuaciones)
 # 2. Análisis FFT (Paso 2)
 # 3. Crear DataFrame con todas las variables

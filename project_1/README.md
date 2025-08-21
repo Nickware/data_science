@@ -29,9 +29,47 @@ Si el espectro sigue una ley de potencia (1/fα), se sugiere correlaciones crít
 El Paso 2 toma las fluctuaciones (noise) generadas en el Paso 1 y analiza sus componentes frecuenciales para identificar patrones ocultos.
 
 Flujo de datos:
-> Paso 1: Generas psi y noise (ruido térmico): noise es una señal aleatoria en el dominio del tiempo (o temperatura T).
+> Paso 1: Genera psi y noise (ruido térmico): noise es una señal aleatoria en el dominio del tiempo (o temperatura T).
 
 > Paso 2: Se aplica FFT a noise para transformarla al dominio de la frecuencia.
 ```python
      fft_vals = fft(noise)
 ```
+## 4.  Generación, Análisis y Guardado de Datos
+
+1. Generar datos del Paso 1 (Parámetro de orden y fluctuaciones)
+2. Análisis FFT (Paso 2)
+3. Crear DataFrame con todas las variables
+4. Guardar datos en un archivo CSV
+
+```python
+     python 04.data1-2.py
+``` 
+
+Explicación de Columnas
+- `Temperatura (TT)`: Variable independiente (en Kelvin).
+- `Parametro_Orden (ψ)`: Parámetro de orden superconductivo con fluctuaciones.
+- `Amplitud_Fluctuaciones (noise)`: Fluctuaciones térmicas (dependientes de T).
+- `Potencia_Espectral`: Resultado del FFT (espectro de potencia de las fluctuaciones).
+
+## 5. PCA para Reducción de Dimensionalidad
+
+Se parte del hecho que se tienen múltiples variables termodinámicas (resistividad, calor específico, susceptibilidad).
+
+```python
+     python 05.PCA.py
+``` 
+Resultado: Si la Componente 1 captura >80% de la varianza, probablemente está ligada a Tc.
+
+## 6. Regresión Logística para Predecir Transiciones
+
+Se clasifica los estados en "superconductor" (1) y "normal" (0) basado en temperatura y fluctuaciones.
+
+```python
+     python 06.regresion.py
+``` 
+Salida esperada
+
+```text
+     Precisión del modelo: 92.00%
+``` 
