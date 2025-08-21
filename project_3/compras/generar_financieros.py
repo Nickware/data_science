@@ -1,3 +1,7 @@
+# Generador de eventos financieros simulados para análisis y pruebas.
+# Este script crea eventos financieros ficticios con datos variados para simular transacciones.
+# Los datos incluyen información del usuario, tipo de compra, dispositivo y probabilidad de fraude.
+# Requiere la librería Faker para generar datos realistas.
 
 from datetime import datetime
 import random

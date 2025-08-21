@@ -1,3 +1,7 @@
+# Generador de eventos viales simulados para análisis y pruebas.
+# Este script crea eventos viales ficticios con datos variados para simular condiciones de tránsito.
+# Los datos incluyen información del sensor, ubicación, vibración, inclinación y presión.
+# Requiere la librería Faker para generar datos realistas.
 
 from datetime import datetime
 import random
