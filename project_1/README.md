@@ -81,3 +81,10 @@ Si no se cuenta con datos experimentales, se pueden generar datos sintéticos ba
 ```python
      python 08.resistividad.py
 ``` 
+## 8. Validación Física con Octave (Opcional)
+
+Para verificar que las fluctuaciones simuladas son físicamente realistas, se debe resolver la ecuación de Ginzburg-Landau estocástica en Octave:
+
+```octave
+     octave comparacion.m
+``` 
