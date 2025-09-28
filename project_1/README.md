@@ -23,7 +23,7 @@ Se aplica la Transformada Rápida de Fourier (FFT) para analizar las frecuencias
 ```python
      python 02.fluctuaciones.py
 ``` 
-Si el espectro sigue una ley de potencia (1/fα), se sugiere correlaciones críticas (típico en transiciones de fase).
+Si el espectro sigue una ley de potencia (1/fα), se sugieren correlaciones críticas (típicas en transiciones de fase).
 
 ## 3.  Conexión entre Datos Termodinámicos y el Análisis de Fourier
 El Paso 2 toma las fluctuaciones (noise) generadas en el Paso 1 y analiza sus componentes frecuenciales para identificar patrones ocultos.
@@ -31,7 +31,7 @@ El Paso 2 toma las fluctuaciones (noise) generadas en el Paso 1 y analiza sus co
 Flujo de datos:
 > Paso 1: Genera psi y noise (ruido térmico): noise es una señal aleatoria en el dominio del tiempo (o temperatura T).
 
-> Paso 2: Se aplica FFT a noise para transformarla al dominio de la frecuencia.
+> Paso 2: Se aplica FFT a la ruido para transformarlo al dominio de la frecuencia.
 ```python
      fft_vals = fft(noise)
 ```
@@ -48,22 +48,22 @@ Flujo de datos:
 
 Explicación de Columnas
 - `Temperatura (TT)`: Variable independiente (en Kelvin).
-- `Parametro_Orden (ψ)`: Parámetro de orden superconductivo con fluctuaciones.
+- `Parámetro_Orden (ψ)`: Parámetro de orden superconductivo con fluctuaciones.
 - `Amplitud_Fluctuaciones (noise)`: Fluctuaciones térmicas (dependientes de T).
 - `Potencia_Espectral`: Resultado del FFT (espectro de potencia de las fluctuaciones).
 
 ## 5. PCA para Reducción de Dimensionalidad
 
-Se parte del hecho que se tienen múltiples variables termodinámicas (resistividad, calor específico, susceptibilidad).
+Se parte del hecho de que se tienen múltiples variables termodinámicas (resistividad, calor específico, susceptibilidad).
 
 ```python
      python 05.PCA.py
 ``` 
-Resultado: Si la Componente 1 captura >80% de la varianza, probablemente está ligada a Tc.
+Resultado: Si la componente 1 captura >80% de la varianza, probablemente está ligada a Tc.
 
 ## 6. Regresión Logística para Predecir Transiciones
 
-Se clasifica los estados en "superconductor" (1) y "normal" (0) basado en temperatura y fluctuaciones.
+Se clasifican los estados en "superconductor" (1) y "normal" (0) basados en temperatura y fluctuaciones.
 
 ```python
      python 06.regresion.py
@@ -72,4 +72,12 @@ Salida esperada
 
 ```text
      Precisión del modelo: 92.00%
+```
+
+## 7. Datos sintéticos (en caso de que no se tengan datos reales)
+
+Si no se cuenta con datos experimentales, se pueden generar datos sintéticos basados en la teoría BCS:
+
+```python
+     python 08.resistividad.py
 ``` 
