@@ -10,8 +10,8 @@ Este script en C++ con CUDA realiza una simulación simplificada del movimiento 
 - **Caja de simulación:** Dimensiones rectangulares 2 unidades en x (0 a 2) y 1 unidad en y (0 a 1).
 - **Movimiento:** Cada partícula se mueve actualizando su posición según su velocidad con paso temporal 0.02f, y rebota en los bordes de la caja.
 - **Demonio de Maxwell:**  
-   - La "compuerta" está ubicada en $$ x = 1 $$.  
-   - Solo partículas rojas que estén a la izquierda de la compuerta y tengan velocidad $$ v_x > 0.7 $$ pueden "cruzar" la compuerta hacia la derecha (incrementan su posición en $$ x $$ en 0.05).
+   - La "compuerta" está ubicada en $x = 1$.  
+   - Solo partículas rojas que estén a la izquierda de la compuerta y tengan velocidad $v_x > 0.7$ pueden "cruzar" la compuerta hacia la derecha (incrementan su posición en $x$ en 0.05).
 - **Colores y significado:**  
    - Verdes (color=0): no pueden cruzar la compuerta.  
    - Rojas (color=1): pueden cruzar bajo condiciones de velocidad.
@@ -28,7 +28,7 @@ Este script en C++ con CUDA realiza una simulación simplificada del movimiento 
   - Guarda la posición de las partículas en archivos para cada frame, con la línea vertical de la compuerta para visualización en GNUPLOT.
 - **Inicialización:**  
   - Partículas se posicionan inicialmente solo en la mitad izquierda (0 a 1 en x).  
-  - Velocidades se generan en rango $$[-1.5, 1.5]$$.
+  - Velocidades se generan en rango $[-1.5, 1.5]$.
 
 ***
 
