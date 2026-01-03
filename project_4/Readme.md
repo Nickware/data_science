@@ -225,36 +225,36 @@ jobs:
 ##  Casos de Uso Ideales
 
 ### Perfecto para:
-- **Blogs personales/académicos**
-- **Documentación técnica**
-- **Portafolios profesionales**
-- **Sitios corporativos simples**
-- **Landing pages**
-- **Documentación de proyectos**
-- **Revistas digitales**
+- Blogs personales/académicos
+- Documentación técnica
+- Portafolios profesionales
+- Sitios corporativos simples
+- Landing pages
+- Documentación de proyectos
+- Revistas digitales
 
 ###  No ideal para:
-- **Aplicaciones web dinámicas**
-- **Sitios con usuarios registrados**
-- **Carritos de compra**
-- **Contenido actualizado cada minuto**
+- Aplicaciones web dinámicas
+- Sitios con usuarios registrados
+- Carritos de compra
+- Contenido actualizado cada minuto
 
 ---
 
 ##  Despliegue (Hosting)
 
 ### Opciones Gratuitas:
-- **GitHub Pages** (con GitHub Actions)
-- **GitLab Pages**
-- **Netlify** (¡Con CI/CD incluido!)
-- **Vercel**
-- **Cloudflare Pages**
+- GitHub Pages** (con GitHub Actions)
+- GitLab Pages
+- Netlify** (¡Con CI/CD incluido!)
+- Vercel
+- Cloudflare Pages
 
 ### Opciones de Pago:
-- **AWS S3 + CloudFront**
-- **Google Cloud Storage**
-- **Azure Static Web Apps**
-- **Shared hosting tradicional**
+- AWS S3 + CloudFront
+- Google Cloud Storage
+- Azure Static Web Apps
+- Shared hosting tradicional
 
 ---
 
