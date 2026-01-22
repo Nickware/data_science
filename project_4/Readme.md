@@ -363,13 +363,13 @@ content/
 ##  Conclusión
 
 **HUGO es ideal si:**
-- Buscas **rendimiento extremo**
-- Quieres **seguridad máxima** (sin PHP/BD)
-- Necesitas **control total** sobre tu sitio
-- Valoras **simplicidad** y **portabilidad**
-- Trabajas con **contenido predecible**
+- Buscar **rendimiento extremo**
+- Querer **seguridad máxima** (sin PHP/BD)
+- Necesitar **control total** sobre tu sitio
+- Valorar **simplicidad** y **portabilidad**
+- Trabajar con **contenido predecible**
 
-**HUGO es la navaja suiza de los sitios estáticos** - simple pero increíblemente potente cuando dominas su sistema de templates y contenido.
+**HUGO es la navaja suiza de los sitios estáticos** - simple pero increíblemente potente cuando domina su sistema de templates y contenido.
 
 **HUGO** se puede emplear en diferentes áreas, especialmente para académicos, investigadores y desarrolladores que publican contenido regularmente pero no necesitan complejidad dinámica
 
@@ -383,5 +383,3 @@ git init
 hugo server -D
 # ¡A crear!
 ```
-
-**HUGO transforma la escritura en publicación sin dolor.** 
