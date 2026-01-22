@@ -237,15 +237,15 @@ git push origin main
 
 **Usa HUGO si:**
 
-- Tu equipo es técnico y cómodo con Git/Markdown
-- Quieres máxima seguridad y velocidad
-- Necesitas publicación pública fácil
-- Valoras el control de versiones granular
+- El equipo es técnico y cómodo con Git/Markdown
+- Si se quiere máxima seguridad y velocidad
+- Si se necesita publicación pública fácil
+- Si se valora el control de versiones granular
 
-**Usa DokuWiki si:**
-- Tienes equipo no técnico que necesita editar
-- Prefieres edición web inmediata
-- La colaboración simple es prioridad
+**Usar DokuWiki si:**
+- Sí se tiene equipo no técnico que necesita editar
+- Si prefiere edición web inmediata
+- Sí la colaboración simple es prioridad
 
 ### **Configuración Híbrida Recomendada:**
 ```bash
@@ -255,4 +255,4 @@ git push origin main
 └── bitacora-publica/    # HUGO (red local + internet)
 ```
 
-HUGO es excelente marco para bitácoras técnicas, especialmente si se conoce herramientas de desarrollo. La publicación pública es straightforward y muy segura.
+HUGO es un excelente marco para bitácoras técnicas, especialmente si se conoce herramientas de desarrollo. La publicación pública es straightforward y muy segura.
