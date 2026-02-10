@@ -18,7 +18,7 @@ El script usa la librería **Faker** para generar datos ficticios y realistas so
 
 - **Entrenamiento de modelos**: Datos ficticios permiten entrenar algoritmos de detección de fraude sin exponer información real.
 - **Pruebas de software bancario**: Útil para simular flujos de transacciones en sistemas de monitoreo y respuesta.
-- **Validación de dashboards**: Facilita la inspección visual y funcional en interfaces financieras antes de trabajar con datos sensibles.
+- **Validación de dashboards**: Facilita la inspección visual y funcional de las interfaces financieras antes de trabajar con datos sensibles.
 
 ## Ejemplo de evento
 
