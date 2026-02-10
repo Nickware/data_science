@@ -49,5 +49,5 @@ Ambos casos pueden modelarse como pipelines automáticos:
 - Favorece la construcción de ciudades inteligentes y sinergias entre IA, analítica y sistemas operativos modernos.
 - Converge esfuerzos en plataformas modulares (Kubeflow, Kafka, Grafana), optimizando recursos y talento.
 
-*Actualmente, el proyecto se encuentra en fase de desarrollo, avanzando en la implementación de los pipelines de análisis en tiempo real y plataformas de MLOps descritos para ambos casos de uso. Se está trabajando tanto en la integración de fuentes de datos en streaming (financieros y de sensores físicos) como en la puesta en marcha de los modelos de inteligencia artificial y los sistemas de monitoreo automatizado, lo que permitirá validar y ajustar la arquitectura propuesta en entornos reales antes de su despliegue definitivo.*
+*Actualmente, el proyecto se encuentra en fase de desarrollo, avanzando en la implementación de los pipelines de análisis en tiempo real y plataformas de MLOps descritos para ambos casos de uso. Se está trabajando tanto en la integración de fuentes de datos en streaming (financieras y de sensores físicos) como en la puesta en marcha de los modelos de inteligencia artificial y los sistemas de monitoreo automatizado, lo que permitirá validar y ajustar la arquitectura propuesta en entornos reales antes de su despliegue definitivo.
 
