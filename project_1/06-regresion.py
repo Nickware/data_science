@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-# Generar datos del Paso 1 (Parámetro de orden y fluctuaciones)
+# Generar datos del paso anterior (Parámetro de orden y fluctuaciones)
 Tc = 7.2  # Temperatura crítica (K)
 T = np.linspace(4, 10, 100)  # Temperaturas
 delta_T = T - Tc
