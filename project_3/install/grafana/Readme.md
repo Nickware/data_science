@@ -43,7 +43,7 @@ sudo systemctl status grafana-server
 
 ### 4. Acceder desde el navegador
 
-Abre tu navegador y ve a:
+Abrir navegador, se deberá observar:
 
 ```
 http://localhost:3000
@@ -99,10 +99,10 @@ sudo firewall-cmd --permanent --add-port=3000/tcp
 sudo firewall-cmd --reload
 ```
 
-Accede desde tu navegador:
+Acceder desde el navegador:
 
 ```
-http://<tu-ip>:3000
+http://<la-ip>:3000
 ```
 
 ---
@@ -123,16 +123,16 @@ docker run -d \
   grafana/grafana-oss
 ```
 
-Luego accede a `http://localhost:3000`.
+Luego acceder a `http://localhost:3000`.
 
-> 💡 Usar `grafana/grafana-enterprise` si emplea la versión Enterprise.
+> Usar `grafana/grafana-enterprise` si emplea la versión Enterprise.
 
 ---
 
 ##  Seguridad recomendada
 
 - **Cambiar la contraseña de admin** al primer inicio.
-- Considerar usar un **proxy inverso** (como Nginx o Apache) con HTTPS si expones Grafana a internet.
+- Considerar usar un **proxy inverso** (como Nginx o Apache) con HTTPS si expone Grafana a internet.
 - Desactivar el registro de usuarios si no es necesario: edita `/etc/grafana/grafana.ini` y pon:
   ```ini
   [users]
