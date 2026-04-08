@@ -22,30 +22,30 @@ MicroK8s es una versión ligera y fácil de usar de Kubernetes mantenida por Can
 # Actualizar sistema
 sudo apt update
 
-# Instalar snap (si no lo tienes)
+# Instalar snap (si no se tiene instalado)
 sudo apt install snapd -y
 
 # Instalar MicroK8s
 sudo snap install microk8s --classic
 
-# Añadir tu usuario al grupo microk8s (evita usar sudo)
+# Añadir usuario al grupo microk8s (evita usar sudo)
 sudo usermod -a -G microk8s $USER
-newgrp microk8s  # Aplica el cambio de grupo en la sesión actual
+newgrp microk8s  # Aplicar el cambio de grupo en la sesión actual
 ```
 
-> ⚠ Cierra y vuelve a abrir tu terminal o ejecuta `newgrp microk8s` para aplicar los permisos.
+> Cerrar y volver abrir la terminal o ejecutar `newgrp microk8s` para aplicar los permisos.
 
 ---
 
 ## Paso 2: Configurar MicroK8s
 
-Habilita los addons necesarios:
+Habilitar los addons necesarios:
 
 ```bash
 # Habilitar DNS, almacenamiento y dashboard (opcional)
 microk8s enable dns storage
 
-# Verifica que el clúster esté listo
+# Verificar que el clúster esté listo
 microk8s status --wait-ready
 ```
 
@@ -53,7 +53,7 @@ microk8s status --wait-ready
 
 ## Paso 3: Instalar `kubectl` (si no está disponible)
 
-MicroK8s incluye su propia versión de `kubectl`:
+MicroK8s incluir su propia versión de `kubectl`:
 
 ```bash
 # Crear alias para usar kubectl sin prefijo
@@ -67,66 +67,66 @@ kubectl get nodes
 
 ## Paso 4: Instalar Kubeflow con el operador de MicroK8s (método más sencillo)
 
-MicroK8s incluye un **addon de Kubeflow** que automatiza toda la instalación:
+MicroK8s incluir un **addon de Kubeflow** que automatiza toda la instalación:
 
 ```bash
 # Habilitar el addon de Kubeflow (¡esto puede tardar 10-30 minutos!)
 microk8s enable kubeflow
 ```
 
-Durante la instalación, te pedirá:
+Durante la instalación, se pedirá:
 
 - Una contraseña para el usuario **admin**.
-- Una IP o nombre de host para acceder a la interfaz web (por defecto usa `10.64.140.43.xip.io`, pero puedes usar `localhost` si accedes desde la misma máquina).
+- Una IP o nombre de host para acceder a la interfaz web (por defecto usar `10.64.140.43.xip.io`, pero se puede usar `localhost` si accede desde la misma máquina).
 
->  **Nota**: Si estás en una máquina local, puedes aceptar los valores por defecto.
+>  **Nota**: Si está en una máquina local, puede aceptar los valores por defecto.
 
-Una vez finalizado, verás un mensaje como:
+Una vez finalizado, verá un mensaje como:
 
 ```
 Kubeflow is available at http://<IP>.xip.io
 Username: admin
-Password: <la que elegiste>
+Password: <la que eligio>
 ```
 
 ---
 
 ## Paso 5: Acceder a la interfaz web de Kubeflow
 
-Abre un navegador y ve a la URL que te mostró el instalador, por ejemplo:
+Abrir un navegador y ver a la URL que mostró el instalador, por ejemplo:
 
 ```
 http://10.64.140.43.xip.io
 ```
 
-O si estás en la misma máquina, puedes usar **port-forwarding** para acceder vía `localhost`:
+O si esta en la misma máquina, puede usar **port-forwarding** para acceder vía `localhost`:
 
 ```bash
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
 ```
 
-Luego accede a:  
+Luego acceder a:  
  **http://localhost:8080**
 
-Inicia sesión con:
+Iniciar sesión con:
 - **Usuario**: `admin`
-- **Contraseña**: la que definiste durante la instalación
+- **Contraseña**: la que se definio durante la instalación
 
 ---
 
 ## (Opcional) Verificar los pods
 
-Puedes verificar que todos los componentes se hayan desplegado correctamente:
+Puede verificar que todos los componentes se hayan desplegado correctamente:
 
 ```bash
 kubectl get pods -n kubeflow
 ```
 
-Deberías ver varios pods en estado `Running`.
+Se debería ver varios pods en estado `Running`.
 
 ---
 
-## Limpieza (si deseas desinstalar)
+## Limpieza (si desea desinstalar)
 
 ```bash
 # Deshabilitar Kubeflow
@@ -141,9 +141,8 @@ sudo snap remove microk8s
 ## Notas importantes
 
 - **Kubeflow es complejo**: está diseñado para entornos de producción con múltiples usuarios, pipelines, notebooks, etc.
-- **No uses esta instalación en producción**: el addon de MicroK8s es solo para desarrollo/local.
-- Para producción, considera usar **Kubeflow en un clúster Kubernetes gestionado** (como EKS, GKE o AKS) con herramientas como **kfctl** o **manifests de GitHub**.
-
+- **No use esta instalación en producción**: el addon de MicroK8s es solo para desarrollo/local.
+- Para producción, considerar usar **Kubeflow en un clúster Kubernetes gestionado** (como EKS, GKE o AKS) con herramientas como **kfctl** o **manifests de GitHub**.
 ---
 
 ## Recursos oficiales
