@@ -32,7 +32,7 @@ Este proyecto compara dos casos reales de análisis en tiempo real que, pese a p
 | Necesidad operativa | Baja latencia, adaptabilidad | Robustez, acción ante eventos críticos |
 | Herramientas comunes | Kubeflow, Kafka/MQTT, Grafana | Kubeflow, MQTT, Grafana |
 
-### Pipeline común con Kubeflow
+### Pipeline común Kubeflow
 
 Ambos casos pueden modelarse como pipelines automáticos:
 
