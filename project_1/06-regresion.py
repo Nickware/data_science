@@ -1,5 +1,23 @@
 # Clasificacion de los estados en "superconductor" (1) 
 # y "normal" (0) basado en la temperatura y fluctuaciones.
+# Se utiliza regresión logística para modelar la probabilidad de que un material
+# esté en estado superconductor en función de la temperatura y las fluctuaciones.
+# Se generan datos sintéticos para entrenar el modelo, y luego se evalúa su precisión.
+# El modelo se entrena con un conjunto de datos que incluye la temperatura y las fluctuaciones,
+# y se prueba con un conjunto de datos separado para evaluar su rendimiento.
+# El resultado final es la precisión del modelo y las predicciones de la fase para el conjunto de prueba.
+# Se espera que el modelo tenga una alta precisión, especialmente cerca de la temperatura crítica,
+# donde la transición de fase ocurre.
+# Este enfoque permite entender cómo la temperatura y las fluctuaciones afectan la probabilidad de que un material sea superconductor, y puede ser útil para identificar materiales con propiedades superconductoras en función de sus características térmicas y de fluctuación.
+# Importar las bibliotecas necesarias
+# Se utiliza numpy para generar datos sintéticos, sklearn para la regresión logística y la división de datos.
+# Se generan datos sintéticos para la temperatura, el parámetro de orden y las fluctuaciones, y luego se entrena un modelo de regresión logística para clasificar los estados de superconductor y normal.
+# El modelo se evalúa utilizando la precisión en un conjunto de prueba, y se muestran las predicciones de la fase para ese conjunto.
+# El código es un ejemplo de cómo se puede aplicar la regresión logística para clasificar estados en función de características térmicas y de fluctuación, lo que es relevante en el estudio de materiales superconductores.
+# El código se puede adaptar para incluir más características o para utilizar otros modelos de clasificación si se desea mejorar la precisión o explorar diferentes enfoques.
+# En resumen, este código es un ejemplo de cómo se puede utilizar la regresión logística para clasificar estados de superconductor y normal en función de la temperatura y las fluctuaciones, utilizando datos sintéticos para entrenar y evaluar el modelo.
+# Se espera que el modelo tenga una alta precisión, especialmente cerca de la temperatura crítica, donde la transición de fase ocurre, lo que puede proporcionar información valiosa sobre las propiedades superconductoras de los materiales en función de sus características térmicas y de fluctuación.
+# El código se puede adaptar para incluir más características o para utilizar otros modelos de clasificación si se desea mejorar la precisión o explorar diferentes enfoques.
 
 import numpy as np
 from sklearn.linear_model import LogisticRegression
