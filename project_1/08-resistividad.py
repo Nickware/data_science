@@ -29,5 +29,5 @@ df = pd.DataFrame({
     'Fase': np.where(T < Tc, 'Superconductor', 'Normal')
 })
 
-# Guardar datos generados (para uso futuro)
+# Guardar datos generados
 df.to_csv('resistividad_sintetica.csv', index=False)

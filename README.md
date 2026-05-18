@@ -1,4 +1,4 @@
-## Repositorio de Proyectos en Ciencia de Datos
+## Repositorio de Proyectos Ciencia de Datos
 
 > Este repositorio contiene proyectos desarrollados en el marco de Ciencia de Datos. 
 

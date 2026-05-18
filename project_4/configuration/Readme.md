@@ -322,12 +322,12 @@ git commit -m "fix: corrección en procedimiento backup"
 Crear un script `deploy.sh` en la raíz:
 ```bash
 #!/bin/bash
-echo "▶️ Iniciando deploy..."
+echo " Iniciando deploy..."
 hugo --minify
 git add .
 git commit -m "deploy: $1"
 git push origin main
-echo "✅ Deploy completado!"
+echo " Deploy completado!"
 ```
 
 Uso en VSCode terminal: `./deploy.sh "agregado nuevo equipo"`

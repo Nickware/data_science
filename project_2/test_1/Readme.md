@@ -6,8 +6,8 @@ Este script en C++/CUDA implementa una **simulación de partículas 2D** acelera
 
 ## **Descripción General**
 
-- **Propósito**: Simular el movimiento de *N* partículas (25,000 verdes y 25,000 rojas) dentro de un área bidimensional, registrando sus posiciones para cada frame, y aplicar una compuerta selectiva (demonio de Maxwell) en tiempo real, exportando los datos para visualización con GNUPLOT.
-- **Tecnología**: Uso de CUDA para paralelización en GPU, permitiendo simulaciones con alta eficiencia computacional.
+- **Propósito**: Simular el movimiento de *N* partículas (25.000 verdes y 25.000 rojas) dentro de un área bidimensional, registrando sus posiciones para cada frame y aplicar una compuerta selectiva (demonio de Maxwell) en tiempo real, exportando los datos para visualización con GNUPLOT.
+- **Tecnología**: Uso de CUDA para la paralelización en GPU, permitiendo simulaciones con alta eficiencia computacional.
 
 ------
 
@@ -25,7 +25,7 @@ Este script en C++/CUDA implementa una **simulación de partículas 2D** acelera
 
 ## **Inicialización:**
 
-- Las partículas se inicializan aleatoriamente en posiciones/velocidades, con 50% de cada tipo.
+- Las partículas se inicializan aleatoriamente en posiciones/velocidades, con un 50 % de cada tipo.
 
 ## **Simulación y Almacenamiento:**
 
