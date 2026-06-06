@@ -374,12 +374,3 @@ content/
 **HUGO** se puede emplear en diferentes áreas, especialmente para académicos, investigadores y desarrolladores que publican contenido regularmente pero no necesitan complejidad dinámica
 
 ---
-
-```bash
-# ¡Comienza ahora!
-hugo new site mi-semillero
-cd mi-semillero
-git init
-hugo server -D
-# ¡A crear!
-```
