@@ -27,9 +27,7 @@ Esto significa que puedes cruzar datos de tu servidor Linux, de tu base de datos
 
 Grafana no solo sirve para mirar pantallas. Puedes configurar sistemas de **alertas**. Si la temperatura de un nodo sube de cierto umbral o si el almacenamiento se llena al **90%**, Grafana puede enviar automáticamente una notificación detallada a Discord, Slack, Telegram, correo electrónico o PagerDuty para que actúes de inmediato.
 
----
-
-### La combinación ganadora: El "Stack LG" o "Prometheus + Grafana"
+### "Stack "Prometheus + Grafana"
 
 En el ecosistema tecnológico actual, Grafana casi nunca trabaja solo. Es sumamente común verlo emparejado con **Prometheus**.
 
