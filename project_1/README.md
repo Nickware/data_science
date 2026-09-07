@@ -51,6 +51,33 @@ python3 01-temperatura.py
 
 El script no guarda datos ni implementa una dinámica temporal o espacial.
 
+### `01-temperatura-dinamica.py` (alternativa)
+
+Esta variante conserva `01-temperatura.py` sin cambios y añade una dinámica
+temporal sintética para el parámetro de orden. Integra mediante pasos de Euler
+una ecuación de Langevin basada en un potencial de Ginzburg-Landau
+adimensional. La temperatura cambia gradualmente desde 4 K hasta 10 K durante
+la simulación.
+
+El script guarda las columnas `tiempo`, `temperatura`, `psi`,
+`psi_equilibrio` y `fluctuacion` en `datos_temperatura_dinamica.csv`.
+
+```bash
+python3 01-temperatura-dinamica.py
+```
+
+Para ejecutar sin abrir una ventana gráfica o cambiar la resolución:
+
+```bash
+python3 01-temperatura-dinamica.py --sin-grafica
+python3 01-temperatura-dinamica.py --pasos 2000 --dt 0.005 --semilla 7
+```
+
+La semilla predeterminada (`42`) hace reproducible el archivo generado. Esta
+variante introduce evolución temporal, pero sigue siendo un modelo
+adimensional y unidimensional: no resuelve campos espaciales, unidades
+físicas ni la ecuación completa de Ginzburg-Landau.
+
 ### `02-fluctuaciones.py`
 
 Genera ruido gaussiano independiente, calcula su FFT y muestra el espectro de
