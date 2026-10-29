@@ -48,7 +48,7 @@ git submodule add https://github.com/google/docsy.git themes/docsy
 
 ### **Configurar HUGO**
 ```hugo.toml
-baseURL = 'https://tusuario.github.io/bitacora-red/'
+baseURL = 'https://usuario.github.io/bitacora-red/'
 languageCode = 'es-es'
 title = 'Bitácora de Red Local'
 theme = 'docsy'
