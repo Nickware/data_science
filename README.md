@@ -127,5 +127,5 @@ Cada proyecto tiene requisitos distintos. De forma resumida:
 - Python 3 y `Faker` para los generadores del Proyecto 3.
 - Hugo únicamente si se implementa y compila el sitio descrito en el Proyecto 4.
 
-Consulta el README de cada proyecto antes de instalar herramientas o ejecutar
+Consultar el README de cada proyecto antes de instalar herramientas o ejecutar
 los comandos de esta página.
