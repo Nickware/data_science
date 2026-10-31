@@ -9,10 +9,10 @@ La aparente contradicción es que el demonio parecería hacer que el calor fluya
 La resolución moderna dice que el demonio no puede actuar gratis: medir, registrar y procesar información tiene un costo termodinámico. Cuando se incluye la información que el demonio obtiene sobre las moléculas, la entropía total no disminuye; en otras palabras, el “orden” local se compensa con un aumento de entropía en otra parte del sistema. [bbc](https://www.bbc.com/mundo/noticias-36500302)
 
 ## Importancia científica
-Esta paradoja fue clave para conectar termodinámica e información, y ayudó a desarrollar ideas fundamentales sobre física estadística y teoría de la información. Por eso sigue siendo un ejemplo clásico cuando se habla de entropía, computación y límites de los sistemas físicos. [observatoriobioetica](https://www.observatoriobioetica.org/2021/09/el-demonio-de-maxwell-cumple-150-anos-en-plena-forma/36686)
+Esta paradoja fue clave para conectar termodinámica e información, y ayudó a desarrollar ideas fundamentales sobre física estadística y teoría de la información. Por eso sigue siendo un ejemplo clásico cuando se habla de entropía, computación y límites de los sistemas físicos. 
 
 ## Idea en una frase
-No es que el demonio “rompa” la segunda ley, sino que obliga a reconocer que **la información también tiene costo físico**. [culturacientifica](https://culturacientifica.com/2017/10/24/el-demonio-de-maxwell/)
+No es que el demonio “rompa” la segunda ley, sino que obliga a reconocer que **la información también tiene costo físico**. 
 
 ## Paradoja del Demonio de Maxwell para Runners
 
