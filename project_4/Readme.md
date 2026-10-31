@@ -363,13 +363,11 @@ content/
 ##  Conclusión
 
 **HUGO es ideal si:**
-- Buscar **rendimiento extremo**
-- Querer **seguridad máxima** (sin PHP/BD)
-- Necesitar **control total** sobre tu sitio
-- Valorar **simplicidad** y **portabilidad**
-- Trabajar con **contenido predecible**
-
-**HUGO es la navaja suiza de los sitios estáticos** - simple pero increíblemente potente cuando domina su sistema de templates y contenido.
+- Si se busca **rendimiento extremo**
+- Si se quiere **seguridad máxima** (sin PHP/BD)
+- Si se necesita **control total** sobre tu sitio
+- Si se valora **simplicidad** y **portabilidad**
+- Si se trabaja con **contenido predecible**
 
 **HUGO** se puede emplear en diferentes áreas, especialmente para académicos, investigadores y desarrolladores que publican contenido regularmente pero no necesitan complejidad dinámica
 
